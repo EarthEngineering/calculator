@@ -31,7 +31,7 @@ contract Calculator {
     uint remainder
   );
 
-  function add(uint256 augend, uint256 addend) public returns (uint256 sum) {
+  function add(uint256 augend, uint256 addend) public pure returns (uint256 sum) {
     // emit Add(augend, addend, sum);
     return augend + addend;
   }
