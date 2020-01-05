@@ -55,4 +55,9 @@ contract Calculator {
     // emit Modulo(dividend, divisor, remainder);
     return dividend % divisor;
   }
+
+  function foo(uint256 dividend, uint256 divisor) public pure returns (uint256 remainder) {
+    // emit Modulo(dividend, divisor, remainder);
+    return dividend % divisor;
+  }
 }

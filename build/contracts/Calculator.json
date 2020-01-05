@@ -148,8 +148,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -173,8 +172,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -198,8 +196,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -223,8 +220,7 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -248,25 +244,48 @@
         }
       ],
       "stateMutability": "pure",
-      "type": "function",
-      "constant": true
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "dividend",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "divisor",
+          "type": "uint256"
+        }
+      ],
+      "name": "foo",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "remainder",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.1+commit.e6f7d5a4\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"augend\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"addend\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"sum\",\"type\":\"uint256\"}],\"name\":\"Add\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"quotient\",\"type\":\"uint256\"}],\"name\":\"Divide\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"remainder\",\"type\":\"uint256\"}],\"name\":\"Modulo\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"multiplicand\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"multiplier\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"product\",\"type\":\"uint256\"}],\"name\":\"Multiply\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"minuend\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"subtrahend\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"difference\",\"type\":\"uint256\"}],\"name\":\"Subtract\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"augend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"addend\",\"type\":\"uint256\"}],\"name\":\"add\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"sum\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"}],\"name\":\"divide\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"quotient\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"}],\"name\":\"modulo\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"remainder\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"multiplicand\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"multiplier\",\"type\":\"uint256\"}],\"name\":\"multiply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"product\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"minuend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"subtrahend\",\"type\":\"uint256\"}],\"name\":\"subtract\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"difference\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/carloscardona/Sites/dev/calculator/contracts/Calculator.sol\":\"Calculator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/carloscardona/Sites/dev/calculator/contracts/Calculator.sol\":{\"keccak256\":\"0x337f29be86cd752cc35774d90e4c80ba5e9a362bed850cba86be1d7fd2c70e6c\",\"urls\":[\"bzz-raw://e60c0102e51649d890d2fa923cc702c7ffcdc5bb01e4061dbe9844b93b0391e7\",\"dweb:/ipfs/QmW3j8v2DoanVJjqGh8rEAEtXacctDcwsQK9ApLYomh5Pc\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5061025d806100206000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c8063165c4a161461005c5780633ef5e445146100a8578063771602f7146100f4578063baaf073d14610140578063f88e9fbf1461018c575b600080fd5b6100926004803603604081101561007257600080fd5b8101908080359060200190929190803590602001909291905050506101d8565b6040518082815260200191505060405180910390f35b6100de600480360360408110156100be57600080fd5b8101908080359060200190929190803590602001909291905050506101e5565b6040518082815260200191505060405180910390f35b61012a6004803603604081101561010a57600080fd5b8101908080359060200190929190803590602001909291905050506101f2565b6040518082815260200191505060405180910390f35b6101766004803603604081101561015657600080fd5b8101908080359060200190929190803590602001909291905050506101ff565b6040518082815260200191505060405180910390f35b6101c2600480360360408110156101a257600080fd5b810190808035906020019092919080359060200190929190505050610213565b6040518082815260200191505060405180910390f35b6000818302905092915050565b6000818303905092915050565b6000818301905092915050565b600081838161020a57fe5b06905092915050565b600081838161021e57fe5b0490509291505056fea2646970667358221220ccc4e3e2d005f5a49b70ea75f25dec72e4822d43962f585085d7c9363fd348dd64736f6c63430006010033",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c8063165c4a161461005c5780633ef5e445146100a8578063771602f7146100f4578063baaf073d14610140578063f88e9fbf1461018c575b600080fd5b6100926004803603604081101561007257600080fd5b8101908080359060200190929190803590602001909291905050506101d8565b6040518082815260200191505060405180910390f35b6100de600480360360408110156100be57600080fd5b8101908080359060200190929190803590602001909291905050506101e5565b6040518082815260200191505060405180910390f35b61012a6004803603604081101561010a57600080fd5b8101908080359060200190929190803590602001909291905050506101f2565b6040518082815260200191505060405180910390f35b6101766004803603604081101561015657600080fd5b8101908080359060200190929190803590602001909291905050506101ff565b6040518082815260200191505060405180910390f35b6101c2600480360360408110156101a257600080fd5b810190808035906020019092919080359060200190929190505050610213565b6040518082815260200191505060405180910390f35b6000818302905092915050565b6000818303905092915050565b6000818301905092915050565b600081838161020a57fe5b06905092915050565b600081838161021e57fe5b0490509291505056fea2646970667358221220ccc4e3e2d005f5a49b70ea75f25dec72e4822d43962f585085d7c9363fd348dd64736f6c63430006010033",
-  "sourceMap": "34:1400:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:1400:0;;;;;;;",
-  "deployedSourceMap": "34:1400:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:1400:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;874:198;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;874:198:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;681:189;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;681:189:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;527:150;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;527:150:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1255:177;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1255:177:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1076:175;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1076:175:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;874:198;955:15;1057:10;1042:12;:25;1035:32;;874:198;;;;:::o;681:189::-;757:18;855:10;845:7;:20;838:27;;681:189;;;;:::o;527:150::-;593:11;666:6;657;:15;650:22;;527:150;;;;:::o;1255:177::-;1327:17;1420:7;1409:8;:18;;;;;;1402:25;;1255:177;;;;:::o;1076:175::-;1148:16;1239:7;1228:8;:18;;;;;;1221:25;;1076:175;;;;:::o",
-  "source": "pragma solidity >=0.5.11 <0.7.0;\n\ncontract Calculator {\n  event Add(\n    uint indexed augend,\n    uint indexed addend,\n    uint sum\n  );\n\n  event Subtract(\n    uint indexed minuend,\n    uint indexed subtrahend,\n    uint difference\n  );\n\n  event Multiply(\n    uint indexed multiplicand,\n    uint indexed multiplier,\n    uint product\n  );\n\n  event Divide(\n    uint indexed dividend,\n    uint indexed divisor,\n    uint quotient\n  );\n\n  event Modulo(\n    uint indexed dividend,\n    uint indexed divisor,\n    uint remainder\n  );\n\n  function add(uint256 augend, uint256 addend) public pure returns (uint256 sum) {\n    // emit Add(augend, addend, sum);\n    return augend + addend;\n  }\n\n  function subtract(uint256 minuend, uint256 subtrahend) public pure returns (uint256 difference) {\n    // emit Subtract(minuend, subtrahend, difference);\n    return minuend - subtrahend;\n  }\n\n  function multiply(uint256 multiplicand, uint256 multiplier) public pure returns (uint256 product) {\n    // emit Multiply(multiplicand, multiplier, product);\n    return multiplicand * multiplier;\n  }\n\n  function divide(uint256 dividend, uint256 divisor) public pure returns (uint256 quotient) {\n    // emit Divide(dividend, divisor, quotient);\n    return dividend / divisor;\n  }\n\n  function modulo(uint256 dividend, uint256 divisor) public pure returns (uint256 remainder) {\n    // emit Modulo(dividend, divisor, remainder);\n    return dividend % divisor;\n  }\n}\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.1+commit.e6f7d5a4\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"augend\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"addend\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"sum\",\"type\":\"uint256\"}],\"name\":\"Add\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"quotient\",\"type\":\"uint256\"}],\"name\":\"Divide\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"remainder\",\"type\":\"uint256\"}],\"name\":\"Modulo\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"multiplicand\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"multiplier\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"product\",\"type\":\"uint256\"}],\"name\":\"Multiply\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"minuend\",\"type\":\"uint256\"},{\"indexed\":true,\"internalType\":\"uint256\",\"name\":\"subtrahend\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"difference\",\"type\":\"uint256\"}],\"name\":\"Subtract\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"augend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"addend\",\"type\":\"uint256\"}],\"name\":\"add\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"sum\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"}],\"name\":\"divide\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"quotient\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"}],\"name\":\"foo\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"remainder\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"dividend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"divisor\",\"type\":\"uint256\"}],\"name\":\"modulo\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"remainder\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"multiplicand\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"multiplier\",\"type\":\"uint256\"}],\"name\":\"multiply\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"product\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"minuend\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"subtrahend\",\"type\":\"uint256\"}],\"name\":\"subtract\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"difference\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/carloscardona/Sites/dev/calculator/contracts/Calculator.sol\":\"Calculator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/carloscardona/Sites/dev/calculator/contracts/Calculator.sol\":{\"keccak256\":\"0xed143b88282cf34bc320b1f83928d95f5d4a245fee510675e53c36ea5df87bfc\",\"urls\":[\"bzz-raw://edf48453061e6b1c59d8de0b9cb5059f265a6e62abdd08e11a29286c380f7ff0\",\"dweb:/ipfs/QmUw7CXGf2L3XFzm8M1knJPc1xCvW6b4si1w69JG3eN1Xe\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506102c8806100206000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c806304bc52f814610067578063165c4a16146100b35780633ef5e445146100ff578063771602f71461014b578063baaf073d14610197578063f88e9fbf146101e3575b600080fd5b61009d6004803603604081101561007d57600080fd5b81019080803590602001909291908035906020019092919050505061022f565b6040518082815260200191505060405180910390f35b6100e9600480360360408110156100c957600080fd5b810190808035906020019092919080359060200190929190505050610243565b6040518082815260200191505060405180910390f35b6101356004803603604081101561011557600080fd5b810190808035906020019092919080359060200190929190505050610250565b6040518082815260200191505060405180910390f35b6101816004803603604081101561016157600080fd5b81019080803590602001909291908035906020019092919050505061025d565b6040518082815260200191505060405180910390f35b6101cd600480360360408110156101ad57600080fd5b81019080803590602001909291908035906020019092919050505061026a565b6040518082815260200191505060405180910390f35b610219600480360360408110156101f957600080fd5b81019080803590602001909291908035906020019092919050505061027e565b6040518082815260200191505060405180910390f35b600081838161023a57fe5b06905092915050565b6000818302905092915050565b6000818303905092915050565b6000818301905092915050565b600081838161027557fe5b06905092915050565b600081838161028957fe5b0490509291505056fea26469706673582212201e4e513270fd8e898fca73ae18ae42fcb52b2958da67c64c3b0ae477296c97d964736f6c63430006010033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100625760003560e01c806304bc52f814610067578063165c4a16146100b35780633ef5e445146100ff578063771602f71461014b578063baaf073d14610197578063f88e9fbf146101e3575b600080fd5b61009d6004803603604081101561007d57600080fd5b81019080803590602001909291908035906020019092919050505061022f565b6040518082815260200191505060405180910390f35b6100e9600480360360408110156100c957600080fd5b810190808035906020019092919080359060200190929190505050610243565b6040518082815260200191505060405180910390f35b6101356004803603604081101561011557600080fd5b810190808035906020019092919080359060200190929190505050610250565b6040518082815260200191505060405180910390f35b6101816004803603604081101561016157600080fd5b81019080803590602001909291908035906020019092919050505061025d565b6040518082815260200191505060405180910390f35b6101cd600480360360408110156101ad57600080fd5b81019080803590602001909291908035906020019092919050505061026a565b6040518082815260200191505060405180910390f35b610219600480360360408110156101f957600080fd5b81019080803590602001909291908035906020019092919050505061027e565b6040518082815260200191505060405180910390f35b600081838161023a57fe5b06905092915050565b6000818302905092915050565b6000818303905092915050565b6000818301905092915050565b600081838161027557fe5b06905092915050565b600081838161028957fe5b0490509291505056fea26469706673582212201e4e513270fd8e898fca73ae18ae42fcb52b2958da67c64c3b0ae477296c97d964736f6c63430006010033",
+  "sourceMap": "34:1578:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:1578:0;;;;;;;",
+  "deployedSourceMap": "34:1578:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;34:1578:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1436:174;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1436:174:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;874:198;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;874:198:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;681:189;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;681:189:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;527:150;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;527:150:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1255:177;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1255:177:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1076:175;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1076:175:0;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;1436:174;1505:17;1598:7;1587:8;:18;;;;;;1580:25;;1436:174;;;;:::o;874:198::-;955:15;1057:10;1042:12;:25;1035:32;;874:198;;;;:::o;681:189::-;757:18;855:10;845:7;:20;838:27;;681:189;;;;:::o;527:150::-;593:11;666:6;657;:15;650:22;;527:150;;;;:::o;1255:177::-;1327:17;1420:7;1409:8;:18;;;;;;1402:25;;1255:177;;;;:::o;1076:175::-;1148:16;1239:7;1228:8;:18;;;;;;1221:25;;1076:175;;;;:::o",
+  "source": "pragma solidity >=0.5.11 <0.7.0;\n\ncontract Calculator {\n  event Add(\n    uint indexed augend,\n    uint indexed addend,\n    uint sum\n  );\n\n  event Subtract(\n    uint indexed minuend,\n    uint indexed subtrahend,\n    uint difference\n  );\n\n  event Multiply(\n    uint indexed multiplicand,\n    uint indexed multiplier,\n    uint product\n  );\n\n  event Divide(\n    uint indexed dividend,\n    uint indexed divisor,\n    uint quotient\n  );\n\n  event Modulo(\n    uint indexed dividend,\n    uint indexed divisor,\n    uint remainder\n  );\n\n  function add(uint256 augend, uint256 addend) public pure returns (uint256 sum) {\n    // emit Add(augend, addend, sum);\n    return augend + addend;\n  }\n\n  function subtract(uint256 minuend, uint256 subtrahend) public pure returns (uint256 difference) {\n    // emit Subtract(minuend, subtrahend, difference);\n    return minuend - subtrahend;\n  }\n\n  function multiply(uint256 multiplicand, uint256 multiplier) public pure returns (uint256 product) {\n    // emit Multiply(multiplicand, multiplier, product);\n    return multiplicand * multiplier;\n  }\n\n  function divide(uint256 dividend, uint256 divisor) public pure returns (uint256 quotient) {\n    // emit Divide(dividend, divisor, quotient);\n    return dividend / divisor;\n  }\n\n  function modulo(uint256 dividend, uint256 divisor) public pure returns (uint256 remainder) {\n    // emit Modulo(dividend, divisor, remainder);\n    return dividend % divisor;\n  }\n\n  function foo(uint256 dividend, uint256 divisor) public pure returns (uint256 remainder) {\n    // emit Modulo(dividend, divisor, remainder);\n    return dividend % divisor;\n  }\n}\n",
   "sourcePath": "/Users/carloscardona/Sites/dev/calculator/contracts/Calculator.sol",
   "ast": {
     "absolutePath": "/Users/carloscardona/Sites/dev/calculator/contracts/Calculator.sol",
     "exportedSymbols": {
       "Calculator": [
-        112
+        126
       ]
     },
-    "id": 113,
+    "id": 127,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -290,9 +309,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 112,
+        "id": 126,
         "linearizedBaseContracts": [
-          112
+          126
         ],
         "name": "Calculator",
         "nodeType": "ContractDefinition",
@@ -955,7 +974,7 @@
               ],
               "src": "592:13:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "527:150:0",
             "stateMutability": "pure",
             "virtual": false,
@@ -1124,7 +1143,7 @@
               ],
               "src": "756:20:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "681:189:0",
             "stateMutability": "pure",
             "virtual": false,
@@ -1293,7 +1312,7 @@
               ],
               "src": "954:17:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "874:198:0",
             "stateMutability": "pure",
             "virtual": false,
@@ -1462,7 +1481,7 @@
               ],
               "src": "1147:18:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "1076:175:0",
             "stateMutability": "pure",
             "virtual": false,
@@ -1631,27 +1650,196 @@
               ],
               "src": "1326:19:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "1255:177:0",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 124,
+              "nodeType": "Block",
+              "src": "1524:86:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 122,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 120,
+                      "name": "dividend",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 113,
+                      "src": "1587:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "%",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "id": 121,
+                      "name": "divisor",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 115,
+                      "src": "1598:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "1587:18:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 119,
+                  "id": 123,
+                  "nodeType": "Return",
+                  "src": "1580:25:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "functionSelector": "04bc52f8",
+            "id": 125,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 116,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 113,
+                  "name": "dividend",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 125,
+                  "src": "1449:16:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 112,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1449:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 115,
+                  "name": "divisor",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 125,
+                  "src": "1467:15:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 114,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1467:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1448:35:0"
+            },
+            "returnParameters": {
+              "id": 119,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 118,
+                  "name": "remainder",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 125,
+                  "src": "1505:17:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 117,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1505:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1504:19:0"
+            },
+            "scope": 126,
+            "src": "1436:174:0",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 113,
-        "src": "34:1400:0"
+        "scope": 127,
+        "src": "34:1578:0"
       }
     ],
-    "src": "0:1435:0"
+    "src": "0:1613:0"
   },
   "legacyAST": {
     "absolutePath": "/Users/carloscardona/Sites/dev/calculator/contracts/Calculator.sol",
     "exportedSymbols": {
       "Calculator": [
-        112
+        126
       ]
     },
-    "id": 113,
+    "id": 127,
     "nodeType": "SourceUnit",
     "nodes": [
       {
@@ -1675,9 +1863,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 112,
+        "id": 126,
         "linearizedBaseContracts": [
-          112
+          126
         ],
         "name": "Calculator",
         "nodeType": "ContractDefinition",
@@ -2340,7 +2528,7 @@
               ],
               "src": "592:13:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "527:150:0",
             "stateMutability": "pure",
             "virtual": false,
@@ -2509,7 +2697,7 @@
               ],
               "src": "756:20:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "681:189:0",
             "stateMutability": "pure",
             "virtual": false,
@@ -2678,7 +2866,7 @@
               ],
               "src": "954:17:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "874:198:0",
             "stateMutability": "pure",
             "virtual": false,
@@ -2847,7 +3035,7 @@
               ],
               "src": "1147:18:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "1076:175:0",
             "stateMutability": "pure",
             "virtual": false,
@@ -3016,18 +3204,187 @@
               ],
               "src": "1326:19:0"
             },
-            "scope": 112,
+            "scope": 126,
             "src": "1255:177:0",
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 124,
+              "nodeType": "Block",
+              "src": "1524:86:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 122,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "argumentTypes": null,
+                      "id": 120,
+                      "name": "dividend",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 113,
+                      "src": "1587:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "%",
+                    "rightExpression": {
+                      "argumentTypes": null,
+                      "id": 121,
+                      "name": "divisor",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 115,
+                      "src": "1598:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "1587:18:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 119,
+                  "id": 123,
+                  "nodeType": "Return",
+                  "src": "1580:25:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "functionSelector": "04bc52f8",
+            "id": 125,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 116,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 113,
+                  "name": "dividend",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 125,
+                  "src": "1449:16:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 112,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1449:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 115,
+                  "name": "divisor",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 125,
+                  "src": "1467:15:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 114,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1467:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1448:35:0"
+            },
+            "returnParameters": {
+              "id": 119,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 118,
+                  "name": "remainder",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 125,
+                  "src": "1505:17:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 117,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1505:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1504:19:0"
+            },
+            "scope": 126,
+            "src": "1436:174:0",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 113,
-        "src": "34:1400:0"
+        "scope": 127,
+        "src": "34:1578:0"
       }
     ],
-    "src": "0:1435:0"
+    "src": "0:1613:0"
   },
   "compiler": {
     "name": "solc",
@@ -3307,11 +3664,147 @@
       "links": {},
       "address": "0xdA9FbD039c001e17e404a5bcEbA665e54F44bDE9",
       "transactionHash": "0x202e0371fc596b086725b786b02f9f439c0b351e920db3299e93e0e832f4ca1b"
+    },
+    "1578188761189": {
+      "events": {
+        "0x2a31efc7e9b3f67e8cd108d5980ce3d6ac332ef092f12c5f1d748a7dfdf48f06": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "augend",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "addend",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "sum",
+              "type": "uint256"
+            }
+          ],
+          "name": "Add",
+          "type": "event",
+          "signature": "0x2a31efc7e9b3f67e8cd108d5980ce3d6ac332ef092f12c5f1d748a7dfdf48f06"
+        },
+        "0x2c7ddc0a60157ff197563be8bacdeff7eafc72bef3df429aba39200d702f2dfc": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "dividend",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "divisor",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "quotient",
+              "type": "uint256"
+            }
+          ],
+          "name": "Divide",
+          "type": "event",
+          "signature": "0x2c7ddc0a60157ff197563be8bacdeff7eafc72bef3df429aba39200d702f2dfc"
+        },
+        "0x90f43d9aa67a9acb2223ea60dea34cb6513c3852198e5f8fc898992275d65702": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "dividend",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "divisor",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "remainder",
+              "type": "uint256"
+            }
+          ],
+          "name": "Modulo",
+          "type": "event",
+          "signature": "0x90f43d9aa67a9acb2223ea60dea34cb6513c3852198e5f8fc898992275d65702"
+        },
+        "0x6ad803dd0fa04ab15559798250d90b52344bc5c3c25277d4d8ed72c9edc01587": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "multiplicand",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "multiplier",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "product",
+              "type": "uint256"
+            }
+          ],
+          "name": "Multiply",
+          "type": "event",
+          "signature": "0x6ad803dd0fa04ab15559798250d90b52344bc5c3c25277d4d8ed72c9edc01587"
+        },
+        "0xe67f1ec1f8df3d5e891beb7102a90013e60486dca5d334e7c3d4b1ceece2c1d1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "minuend",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "subtrahend",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "difference",
+              "type": "uint256"
+            }
+          ],
+          "name": "Subtract",
+          "type": "event",
+          "signature": "0xe67f1ec1f8df3d5e891beb7102a90013e60486dca5d334e7c3d4b1ceece2c1d1"
+        }
+      },
+      "links": {},
+      "address": "0x58699a8d8AE572cD2fcFf4E20238A0433E2096DD",
+      "transactionHash": "0x0f2ce8e9db613d41a7d49fb6f0d00f37f3c540e7fa60c26ec1bb5fd2caf7e309"
     }
   },
   "schemaVersion": "3.0.20",
-  "updatedAt": "2020-01-05T01:28:37.589Z",
-  "networkType": "ethereum",
+  "updatedAt": "2020-01-05T01:56:48.909Z",
   "devdoc": {
     "methods": {}
   },
