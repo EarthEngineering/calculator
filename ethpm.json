@@ -1,0 +1,8 @@
+{
+  "package_name": "calculator",
+  "version": "0.1.1",
+  "description": "Simple calculator to perform addition, subtraction, multiplication, division and modulo between two numbers",
+  "authors": ["Gabriel Cardona <gabriel.earth.engineering@earth.engineering>"],
+  "keywords": ["ethereum", "calculator"],
+  "license": "MIT"
+}
