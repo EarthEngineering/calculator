@@ -1,0 +1,3 @@
+# Calculator
+
+Solidity calculator contract.
